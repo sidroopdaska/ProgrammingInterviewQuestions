@@ -12,8 +12,8 @@
 #include <unordered_map>
 using namespace std;
 
-
- int longestCommonSubstringRec(string str1, string str2, int pos1, int pos2, bool checkEqual){
+// recursive method
+int longestCommonSubstringRec(string str1, string str2, int pos1, int pos2, bool checkEqual){
     if(pos1 >= str1.length() || pos2 >= str2.length()){
         return 0;
     }
@@ -31,6 +31,7 @@ using namespace std;
     return max(r1,max(longestCommonSubstringRec(str1, str2, pos1+1, pos2, false), longestCommonSubstringRec(str1, str2, pos1, pos2+1,false)));
 }
 
+// Dynamic Programming - bottom up approach using tabulation
  int longestCommonSubstring(string str1, string str2){
      int **LCS = new int*[str1.length()+1];
      for(int i = 0; i < str1.length()+1; i++){
