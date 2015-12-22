@@ -54,6 +54,11 @@
 			<key>orderHint</key>
 			<integer>2</integer>
 		</dict>
+		<key>LongestPalindromicSubsequence.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>15</integer>
+		</dict>
 		<key>NonRepeatableChar.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -113,6 +118,11 @@
 			<true/>
 		</dict>
 		<key>1FDCACB01C050CCB00D21ADA</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>1FE3EB7E1C29E4B7000402D9</key>
 		<dict>
 			<key>primary</key>
 			<true/>

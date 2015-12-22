@@ -31,9 +31,9 @@ void SubSet(int arr[], int n, int i, int sum, vector<int> solution){
 
 
 int main(int argc, const char * argv[]) {
-    //int arr[]{3,5,4,7,2,1};
-    //vector<int> solution;
-    //SubSet(arr, 6, 0, 9, solution);
+    int arr[]{3,5,4,7,2,1};
+    vector<int> solution;
+    SubSet(arr, 6, 0, 9, solution);
     
     return 0;
 }

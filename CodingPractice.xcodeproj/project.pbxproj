@@ -12,7 +12,6 @@
 		1F53B2CB1C06537900F84B5C /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1F53B2CA1C06537900F84B5C /* main.cpp */; };
 		1F53B2D71C07BDB800F84B5C /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1F53B2D61C07BDB800F84B5C /* main.cpp */; };
 		1FDCACA91C03910100D21ADA /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1FDCACA81C03910100D21ADA /* main.cpp */; };
-		1FE3EB7A1C29DC6A000402D9 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1FE740761C144BB400FE9A81 /* main.cpp */; settings = {ASSET_TAGS = (); }; };
 		1FE3EB821C29E4B7000402D9 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1FE3EB811C29E4B7000402D9 /* main.cpp */; };
 		1FE740401C0B770C00FE9A81 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1FE7403F1C0B770C00FE9A81 /* main.cpp */; };
 		1FE7404B1C0CD2DC00FE9A81 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1FE7404A1C0CD2DC00FE9A81 /* main.cpp */; };
@@ -25,7 +24,6 @@
 		1FEA95CE1BEF8D4E00CF4E03 /* RemoveDuplicates.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1FEA95CD1BEF8D4E00CF4E03 /* RemoveDuplicates.cpp */; settings = {ASSET_TAGS = (); }; };
 		1FEA95D01BEFC72200CF4E03 /* SumLists.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1FEA95CF1BEFC72200CF4E03 /* SumLists.cpp */; settings = {ASSET_TAGS = (); }; };
 		1FEA95D21BEFF37E00CF4E03 /* PalindromeLL.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1FEA95D11BEFF37E00CF4E03 /* PalindromeLL.cpp */; settings = {ASSET_TAGS = (); }; };
-		1FEA95D41BF1276C00CF4E03 /* StringPalindrome.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1FEA95D31BF1276C00CF4E03 /* StringPalindrome.cpp */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -182,7 +180,6 @@
 		1FE740691C132A7200FE9A81 /* Justification */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Justification; sourceTree = BUILT_PRODUCTS_DIR; };
 		1FE7406B1C132A7200FE9A81 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		1FE740741C144BB400FE9A81 /* LongestCommonSubstring */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = LongestCommonSubstring; sourceTree = BUILT_PRODUCTS_DIR; };
-		1FE740761C144BB400FE9A81 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		1FE7407F1C14AB5D00FE9A81 /* DP */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = DP; sourceTree = BUILT_PRODUCTS_DIR; };
 		1FE740811C14AB5D00FE9A81 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		1FE7408A1C14DD8E00FE9A81 /* powerSet */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = powerSet; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -191,7 +188,6 @@
 		1FEA95CD1BEF8D4E00CF4E03 /* RemoveDuplicates.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = RemoveDuplicates.cpp; sourceTree = "<group>"; };
 		1FEA95CF1BEFC72200CF4E03 /* SumLists.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SumLists.cpp; sourceTree = "<group>"; };
 		1FEA95D11BEFF37E00CF4E03 /* PalindromeLL.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = PalindromeLL.cpp; sourceTree = "<group>"; };
-		1FEA95D31BF1276C00CF4E03 /* StringPalindrome.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = StringPalindrome.cpp; path = ../StringPalindrome.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -309,7 +305,6 @@
 				1FE740541C0CD4B700FE9A81 /* RemoveDuplicatesFromStrings */,
 				1FE7405F1C1101DA00FE9A81 /* Graphs */,
 				1FE7406A1C132A7200FE9A81 /* Justification */,
-				1FE740751C144BB400FE9A81 /* Longest Common Substring */,
 				1FE740801C14AB5D00FE9A81 /* DP */,
 				1FE7408B1C14DD8E00FE9A81 /* powerSet */,
 				1FE3EB801C29E4B7000402D9 /* LongestPalindromicSubsequence */,
@@ -347,7 +342,6 @@
 				1FEA95CD1BEF8D4E00CF4E03 /* RemoveDuplicates.cpp */,
 				1FEA95CF1BEFC72200CF4E03 /* SumLists.cpp */,
 				1FEA95D11BEFF37E00CF4E03 /* PalindromeLL.cpp */,
-				1FEA95D31BF1276C00CF4E03 /* StringPalindrome.cpp */,
 			);
 			path = CodingPractice;
 			sourceTree = "<group>";
@@ -430,15 +424,6 @@
 				1FE7406B1C132A7200FE9A81 /* main.cpp */,
 			);
 			path = Justification;
-			sourceTree = "<group>";
-		};
-		1FE740751C144BB400FE9A81 /* Longest Common Substring */ = {
-			isa = PBXGroup;
-			children = (
-				1FE740761C144BB400FE9A81 /* main.cpp */,
-			);
-			name = "Longest Common Substring";
-			path = "Dynamic Programming";
 			sourceTree = "<group>";
 		};
 		1FE740801C14AB5D00FE9A81 /* DP */ = {
@@ -787,7 +772,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				1FEA95D01BEFC72200CF4E03 /* SumLists.cpp in Sources */,
-				1FEA95D41BF1276C00CF4E03 /* StringPalindrome.cpp in Sources */,
 				1FEA95CC1BEF767F00CF4E03 /* linkedlist.cpp in Sources */,
 				1FEA95D21BEFF37E00CF4E03 /* PalindromeLL.cpp in Sources */,
 				1FEA95CE1BEF8D4E00CF4E03 /* RemoveDuplicates.cpp in Sources */,
@@ -879,7 +863,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1FE3EB7A1C29DC6A000402D9 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1239,6 +1222,7 @@
 				1FE3EB851C29E4B7000402D9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1FE740431C0B770C00FE9A81 /* Build configuration list for PBXNativeTarget "Karp-Rabin" */ = {
 			isa = XCConfigurationList;
