@@ -7,6 +7,9 @@
 //
 
 #include <iostream>
+#include <unordered_map>
+#include <string>
+using namespace std;
 
 void firstNonRepeatableChar(string str){
     
@@ -17,7 +20,7 @@ void firstNonRepeatableChar(string str){
     
     for (int i = 0; i< str.length(); i++){
         if(m[str[i]] == 1){
-            cout << "first non repeatable char = " << str[i] << endl;
+            cout << "non repeatable char = " << str[i] << endl;
         }
     }
 }
